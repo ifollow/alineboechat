@@ -740,7 +740,7 @@ ul.yt-tab-navi li.active a,
 	background: #191919; /* Old browsers */
 }
 
-.col2-left-layout .wrapp-column { height:100%; }
+.col2-left-layout .wrapp-column { height:100%; margin-bottom: 150px; }
 .col-main {
 	height:100%;
 }
