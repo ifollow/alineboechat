@@ -185,9 +185,9 @@
 		    <?php if ($_cartQty>0){ ?>
 		        <div class="summary">
 		            <?php if ($_cartQty==1): ?>
-		                <span class="amount"><?php echo $this->__('My Cart <a href="%s">1</a> item.', $this->getUrl('checkout/cart')) ?></span>
+		                <span class="amount"><?php echo $this->__('Meu Carro <a href="%s">1</a> item.', $this->getUrl('checkout/cart')) ?></span>
 		            <?php else: ?>
-		                <span class="amount"><?php echo $this->__('My Cart <a href="%s">%s</a> items.', $this->getUrl('checkout/cart'), $_cartQty) ?></span>
+		                <span class="amount"><?php echo $this->__('Meu Carro <a href="%s">%s</a> items.', $this->getUrl('checkout/cart'), $_cartQty) ?></span>
 		            <?php endif ?>
 		            <span class="subtotal">
 		                <?php if ($this->canApplyMsrp()): ?>
