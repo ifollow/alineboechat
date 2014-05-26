@@ -42,11 +42,7 @@ Supported layout update handles (special):
 Default layout, loads most of the pages
 -->
 
-    <reference name="top.menu">             
-                <block type="megamenu/list" name="megamenu.list.theme">
-                    <action method="setConfig"> <name> <group_id> 9</group_id> </name> </action>
-                </block>
-        </reference>
+    
 	<catalog_category_view>
 		<reference name="right">
 			<block type="directory/currency" name="currency" before="right.reports.product.viewed" template="directory/currency.phtml"/>
