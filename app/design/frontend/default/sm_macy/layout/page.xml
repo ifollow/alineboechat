@@ -108,7 +108,11 @@ Default layout, loads most of the pages
 				<block type="cms/block" name="about-us">
 					<action method="setBlockId"><block_id>about-us</block_id></action>
 				</block>
-				<block type="megamenu/list" name="megamenu.list.theme"/>
+				            
+                <block type="megamenu/list" name="megamenu.list.theme">
+                    <action method="setConfig"> <name> <group_id> 9</group_id> </name> </action>
+                </block>
+                
 				<block type="customer/form_login" name="customer_form_mini_login" after="-" template="customer/form/mini.login.phtml" />
             </block>
 
