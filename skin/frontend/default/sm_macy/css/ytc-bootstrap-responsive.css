@@ -762,7 +762,9 @@ ul.yt-tab-navi li.active a,
 .header-top,
 .header-mobi,
 .slide-wrap,
-.bg-black { background-color : #a79a98; }
+.bg-black { background-color : #000; }
+
+.slide-wrap{background-color: #a79a98;}
 
 #product-review-table thead th span,
 #product-review-table tbody th,
