@@ -2624,6 +2624,8 @@ TABLE OF CONTENTS
 
     text-transform: capitalize;
 
+    list-style: none;
+
 }
 
 .sm_megamenu_wrapper_horizontal_menu .sm_megamenu_menu ul.custom li a {	color:#FFF; text-transform:uppercase;	}
