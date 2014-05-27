@@ -8182,7 +8182,7 @@ ul#poll-answers li span.label label{  line-height:14px; }
 .top-footer/*,
 .top-footer:before,
 .top-footer:after*/{
-	border-top:1px solid #343434; border-bottom: 1px solid #161616; height:59px;
+	border-top:1px solid #a79a98; border-bottom: 1px solid #161616; height:59px;
 }
 /*.top-footer:before,
 .top-footer:after{
